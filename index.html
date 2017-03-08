@@ -45,13 +45,53 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="card my-1">
+          <div class="card risk1">
+            <div class="bg-primary card-block">
+              <h1 class="card-title text-white">Step1.</h1>
+              <h2 class="text-white">위험을 찾다.</h2>
+            </div>
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item">
+                <!-- 이름 시작 -->
+                <div class="form-group">
+                  <label>이름(닉네임)</label>
+                  <input class="form-control" placeholder="홍길동">
+                </div>
+                <!-- 이름 끝 -->
+              </li>
+              <li class="list-group-item">
+                <!-- 생년월일 시작 -->
+                <div class="form-group">
+                  <label>생년월일</label>
+                  <input class="form-control" placeholder="860101">
+                </div>
+                <!-- 생년월일 끝 -->
+              </li>
+              <li class="list-group-item">
+                <!-- 성별 시작 -->
+                <div class="form-group">
+                  <label>성별</label>
+                  <select class="form-control">
+                     <option>남자</option>
+                     <option>여자</option>
+                    </select>
+                </div>
+                <!-- 성별 끝 -->
+              </li>
+            </ul>
+            <div class="card-block ">
+              <a href="#" class="btn btn-block btn-lg btn-primary">내 위험 계산</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-3">
+          <div class="card risk2">
             <div class="card-block text-center">
-              <h2>Small</h2>
-              <h3>10 $</h3>
+              <h2>Step 2.</h2>
+              <h3>위험을 줄이다.</h3>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item"></li>
               <li class="list-group-item">Dapibus ac facilisis in</li>
               <li class="list-group-item">Vestibulum at eros</li>
             </ul>
@@ -60,35 +100,34 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-3"></div>
         <div class="col-md-3">
-          <div class="card ">
-            <div class="bg-primary card-block">
-              <h1 class="card-title text-white">Normal</h1>
-              <h2 class="text-white">20 $</h2>
+          <div class="card risk2">
+            <div class="card-block text-center">
+              <h2>Step 3.</h2>
+              <h3>위험을 대비하다.</h3>
             </div>
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item">Cras justo odio</li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"></li>
               <li class="list-group-item">Dapibus ac facilisis in</li>
               <li class="list-group-item">Vestibulum at eros</li>
             </ul>
-            <div class="card-block ">
-              <a href="#" class="btn btn-block btn-lg btn-primary">Subscribe</a>
+            <div class="card-block">
+              <a href="#" class="btn btn-block btn-primary">Subscribe</a>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card my-1">
-            <div class="card-block text-xs-center">
-              <h2 class="card-title">Large</h2>
-              <h3 class="">30 $</h3>
+          <div class="card risk2">
+            <div class="card-block text-center">
+              <h2>Step 4.</h2>
+              <h3>위험을 설계하다.</h3>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item"></li>
               <li class="list-group-item">Dapibus ac facilisis in</li>
               <li class="list-group-item">Vestibulum at eros</li>
             </ul>
-            <div class="card-block ">
+            <div class="card-block">
               <a href="#" class="btn btn-block btn-primary">Subscribe</a>
             </div>
           </div>
@@ -96,9 +135,14 @@
       </div>
     </div>
   </div>
+
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+
+
+
 
 
 </body>
